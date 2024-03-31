@@ -46,6 +46,8 @@ Automatically determining the best number of clusters based on relative distance
 ![step1_determine_number_of_clusters](https://github.com/RijulGupta-DM/defiance-capital-vc-datashare/assets/104281028/e1db03d4-5de6-4147-8564-201f014840c8)
 
 Assign each company to a cluster
+
+
 Cluster 0:
 Flutterwave, Cambridge Mobile Telematics, Stripe, Pilot, HoneyBook, Signifyd, Zeta, Brex, Motive, ChargeBee, InDrive, 
 Plaid, Navan, Melio, Assembly, Pattern, Sunbit, Public, Extend, DriveWealth, Avant, Fundbox, Ramp, Vagaro, 
