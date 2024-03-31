@@ -118,9 +118,15 @@ Benchling, Rothy's, Gopuff, Rec Room, Glia, reddit, Grammarly, Houzz, GupShup, P
 
 
 Visualize the clusters
+
+
 ![step4_visualize_clusters_with_tags](https://github.com/RijulGupta-DM/defiance-capital-vc-datashare/assets/104281028/47a215d2-720f-4923-ac78-b8d65a76673a)
 
+
+
+
 Visualize "Underdog" filters
+
 
 ![step5_000_visualize_clusters_with_filters_female](https://github.com/RijulGupta-DM/defiance-capital-vc-datashare/assets/104281028/89e51f46-c67b-4bcb-8ad7-a6978501b48b)
 ![step5_001_visualize_clusters_with_filters_gen_immigrant](https://github.com/RijulGupta-DM/defiance-capital-vc-datashare/assets/104281028/2454150b-4de3-4d0b-a20c-78c895a5b0de)
