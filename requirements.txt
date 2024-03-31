@@ -1,0 +1,6 @@
+plotly
+openai
+pandas
+umap-learn
+kaleido
+kneed
