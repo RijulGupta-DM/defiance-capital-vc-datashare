@@ -1,5 +1,3 @@
-[step2_determine_company_clusters.txt](https://github.com/RijulGupta-DM/defiance-capital-vc-datashare/files/14817976/step2_determine_company_clusters.txt)# Defiance Capital VC Unicorn - Deep Media AI Analysis
-
 ## Overview
 This project aims to analyze and visualize the clustering of companies based on various attributes such as company descriptions, underdog status, gender representation, and immigration background of leadership. By leveraging text embeddings and clustering techniques, we provide insights into the landscape of companies in our dataset.
 
