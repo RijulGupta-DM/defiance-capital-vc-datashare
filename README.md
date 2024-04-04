@@ -153,7 +153,3 @@ Contributions to this project are welcome! Please follow these steps to contribu
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-Remember to replace placeholders like `https://github.com/yourusername/your-repository-name.git` with your actual repository URL and adjust any specific instructions or descriptions according to what your project does. This README provides a structured outline for collaborators and users to understand and work with your project effectively.
