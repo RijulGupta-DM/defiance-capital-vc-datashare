@@ -2,9 +2,11 @@
 import os
 import plotly.graph_objects as go
 import plotly.express as px
+import plotly.io as pio
 import numpy as np
 from scipy.spatial.distance import cdist
 
+pio.templates.default = "seaborn"
 
 def setup_visualization_dir(visualization_dir):
     if not os.path.exists(visualization_dir):

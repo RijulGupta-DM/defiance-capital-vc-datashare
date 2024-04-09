@@ -4,9 +4,9 @@ from clustering import train_kmeans, find_optimal_clusters
 from visualization import visualize_clusters, setup_visualization_dir
 import os
 
-company_description_path = "data/input/defiance_data_V1_descriptions.csv"
+company_description_path = "data/input/defiance_data_V2.csv"
 directory = "data/tmp"
-experiment_id = "exp007"
+experiment_id = "exp008"
 visualization_dir = f"data/output/visualizations/{experiment_id}"
 columns = ["female", "gen_immigrant", "immigrant", "Solo Founder", "Serial Founder", "STEM", "female-stem"]
 
@@ -18,7 +18,7 @@ def main():
 
     n_clusters_file = os.path.join(visualization_dir, "step1_determine_number_of_clusters.png")
     n_clusters = find_optimal_clusters(embeddings_reduced_df, n_clusters_file)  # Uncomment to find optimal clusters
-    n_clusters = 4
+    # n_clusters = 4
 
     labels, cluster_centers = train_kmeans(embeddings_reduced_df, n_clusters=n_clusters)
     embeddings_reduced_df['kmeans_labels'] = labels
