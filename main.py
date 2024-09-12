@@ -4,9 +4,9 @@ from clustering import train_kmeans, find_optimal_clusters
 from visualization import visualize_clusters, setup_visualization_dir
 import os
 
-company_description_path = "data/input/defiance_data_V1_descriptions.csv"
+company_description_path = "data/input/defiance_data_V2.csv"
 directory = "data/tmp"
-experiment_id = "exp007"
+experiment_id = "exp008"
 visualization_dir = f"data/output/visualizations/{experiment_id}"
 columns = ["female", "gen_immigrant", "immigrant", "Solo Founder", "Serial Founder", "STEM", "female-stem", "indian-female-stem"]
 

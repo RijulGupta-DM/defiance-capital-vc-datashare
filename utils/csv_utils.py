@@ -149,10 +149,10 @@ def load_embeddings(directory, columns):
                         if '-' in column:
                             flags = column.split('-')
                             # Set attribute_value to True only if all specified flags are True
-                            attribute_value = all(company_data.get(flag, "FALSE") == "TRUE" for flag in flags)
+                            attribute_value = all(company_data.get(flag, "0") == "1" for flag in flags)
                         else:
                             # For single flag, process as before
-                            attribute_value = company_data.get(column, "FALSE") == "TRUE"
+                            attribute_value = company_data.get(column, "0") == '1'
 
                         attributes[column].append(attribute_value)
 
